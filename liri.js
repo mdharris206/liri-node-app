@@ -70,7 +70,7 @@ const movieFind = function() {
         console.log(movieData.Title);
         console.log(movieData.Year);
         console.log(movieData.Rated);
-        console.log(movieData.Ratings.Source)+":"+" "+(movieData.Ratings.Value);
+        console.log(movieData.Ratings[1].Source)+": "+console.log(movieData.Ratings[1].Value);
         console.log(movieData.Country);
         console.log(movieData.Language);
         console.log(movieData.Plot);
